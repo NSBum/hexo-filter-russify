@@ -5,7 +5,7 @@ This extends the [Hexo](https://hexo.io) blogging system with a filter that conv
 
 For example, `||мой, твой, его, её, наш, ваш, их||` will be rendered as:
 
-
+![Rendered output](http://i.imgur.com/0X6U8DM.png)
 
 ##Installation
 
