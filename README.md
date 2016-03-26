@@ -12,3 +12,17 @@ For example, `||мой, твой, его, её, наш, ваш, их||` will be 
 ``` bash
 $ npm install hexo-filter-russify --save
 ```
+
+In your theme css, implement the Cyrillic markup for the span:
+
+``` css
+span.rsb {
+    font-family: Georgia,serif;
+    color: #B30000;
+    font-weight: bold;
+}
+```
+
+##Usage
+
+Anything that you want rendered in this fashion, enclose in double pipes as above.
